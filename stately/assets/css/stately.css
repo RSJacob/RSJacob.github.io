@@ -1,0 +1,153 @@
+/** Stately setup
+*************************************/
+@font-face {
+  font-family: 'stately-webfont';
+  src: url("../font/stately-webfont.eot");
+  src: url("../font/stately-webfont.eot?#iefix") format("embedded-opentype"), url("../font/stately-webfont.woff") format("woff"), url("../font/stately-webfont.ttf") format("truetype"), url("../font/stately-webfont.svg#testfontRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stately {
+  font: normal normal 600px/100% "stately-webfont";
+  font-size-adjust: none;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga=1";
+  -ms-font-feature-settings: "liga" 1;
+  -ms-font-feature-settings: "liga", "dlig";
+  overflow: hidden;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.stately li {
+  float: left;
+  margin: -20% 0 0 -100%;
+  position: relative;
+  left: 101%;
+  width: 100%;
+  cursor: default;
+  -webkit-transition: all 1s ease-in;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/** Style customizations
+*************************************/
+.stately {
+  background: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  border-top: 1px solid #dddddd;
+}
+
+
+#internetspeed 
+{
+  color: #edf8fb;
+}
+#internetspeed .al,
+#internetspeed .de,
+#internetspeed .dc,
+#internetspeed .ut,
+#internetspeed .nv, 
+#internetspeed .sd,
+#internetspeed .wi
+
+{color: #ccece6;}
+#internetspeed .ri,
+#internetspeed .la,
+#internetspeed .mt,
+#internetspeed .nd,
+#internetspeed .id,
+#internetspeed .nm,
+#internetspeed .ok,
+#internetspeed .ms,
+#internetspeed .ak,
+#internetspeed .az,
+#internetspeed .wv,
+#internetspeed .me,
+#internetspeed .ne,
+#internetspeed .hi,
+#internetspeed .tn,
+#internetspeed .vt,
+#internetspeed .ks,
+#internetspeed .nh
+{color: #99d8c9;}
+#internetspeed .ga,
+#internetspeed .sc,
+#internetspeed .nj,
+#internetspeed .wa,
+#internetspeed .al
+{color: #66c2a4;}
+
+#internetspeed .md,
+#internetspeed .ct,
+#internetspeed .mo,
+#internetspeed .in,
+#internetspeed .ky,
+#internetspeed .or,
+#internetspeed .tx,
+#internetspeed .co,
+#internetspeed .mn
+{color: #2ca25f;}
+#internetspeed .fl,
+#internetspeed .io,
+#internetspeed .va,
+#internetspeed .pa,
+#internetspeed .oh,
+#internetspeed .il,
+#internetspeed .wi,
+#internetspeed .mi,
+#internetspeed .ma,
+#internetspeed .ny,
+#internetspeed .ca
+{color: #006d2c;}
+
+  .wax-legend .legend-title {
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+    }
+  .wax-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    }
+  .wax-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 50px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+    }
+  .wax-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 50px;
+    }
+  .wax-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear: both;
+    }
+  .wax-legend a {
+    color: #777;
+    }
+#map-canvas { width:500px; height:400px; }
+  
